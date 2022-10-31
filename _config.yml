@@ -25,7 +25,8 @@ baseurl: "eliesercapillar.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: oinam-jekyll
+#theme: oinam-jekyll
+remote_theme: oinam/oinam-jekyll
 plugins:
   - jekyll-feed
 
