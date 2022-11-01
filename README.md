@@ -1,13 +1,11 @@
 ---
 title:  "Hosting a resume on GitHub pages using Jekyll."
 ---
-<hr style="height:2px; background-color:black">
 This text provides and describes the practical steps of how to host and format a [resume](/resume/) using **Markdown, Atom, GitHub Pages, and Jekyll**.
 
 Additionally, this text will show the value of pursuing this approach with the help of _Andrew Etter's_ book, [Modern Technical Writing: An Introduction to Software Documentation](#More Resources)
 
 ## Table of Contents
-<hr style="height:2px; background-color:black">
 - [Prerequisites](#Prerequisites)
   - [A Resume in Markdown](#Resume)
   - [A Markdown Editor](#Editor)
@@ -25,7 +23,6 @@ Additionally, this text will show the value of pursuing this approach with the h
 - [More Resources](#More Resources)
 
 ## Prerequisites <a name = "Prerequisites"></a>
-<hr style="height:2px; background-color:black">
 
 Before starting, you will need these prerequisites:
 
@@ -59,7 +56,6 @@ Lastly, you will of course need [Jekyll](https://jekyllrb.com/).
 If you do not yet have Jekyll installed, you can follow this tutorial on the [Jekyll Website](https://jekyllrb.com/docs/installation/).
 
 ## Instructions <a name = "Instructions"></a>
-<hr style="height:2px; background-color:black">
 Once you have all of the prerequisites, you are ready to host your own resume on GitHub Pages.
 
 From _Andrew Etter's_ book, which can be found in [More Resources](#More Resources),  
@@ -127,7 +123,6 @@ Now we will deploy our website so others can see it as well.
 7. Push the changes to your repository.
 
 ## Frequently Asked Questions <a name = "FAQs"></a>
-<hr style="height:2px; background-color:black">
 #### "Why is Markdown better than a word processor? <a name = "Q1"></a>
 Markdown is not necessarily _better_ than a word processor. Both are tools built for certain tasks, and both tools do these tasks well.
 
@@ -152,13 +147,11 @@ Others may implement `pages` and `posts` but depending on the implementation of 
 Upon picking a theme, carefully read its GitHub repository. Pay special attention to the `_layouts` folder. There may not exist an implementation for the Front Matter layout you put in your file.
 
 ## Author and Acknowledgements <a name = "Authors"></a>
-<hr style="height:2px; background-color:black">
 Written by _Elieser Capillar_ (#7838502)   
 Jekyll Theme by [_Oinam_](https://github.com/oinam/oinam-jekyll)
 
 
 ## More Resources <a name = "More Resources"></a>
-<hr style="height:2px; background-color:black">
 
 Here is a list of resources I found useful while working on this project:
 - A very easy to read, [Markdown syntax overview](https://www.markdownguide.org/basic-syntax).
