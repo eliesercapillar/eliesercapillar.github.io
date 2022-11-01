@@ -1,8 +1,5 @@
 ---
-layout: page
 title:  "Hosting a resume on GitHub pages using Jekyll."
-date:   2022-10-31 01:01:42 -0500
-permalink: /readme/
 ---
 <hr style="height:2px; background-color:black">
 This text provides and describes the practical steps of how to host and format a [resume](/resume/) using **Markdown, Atom, GitHub Pages, and Jekyll**.
