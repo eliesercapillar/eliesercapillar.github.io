@@ -1,9 +1,8 @@
----
-title:  "Hosting a resume on GitHub pages using Jekyll."
----
-This text provides and describes the practical steps of how to host and format a [resume](/resume/) using **Markdown, Atom, GitHub Pages, and Jekyll**.
+# Hosting a resume on GitHub pages using Jekyll.
 
-Additionally, this text will show the value of pursuing this approach with the help of _Andrew Etter's_ book, [Modern Technical Writing: An Introduction to Software Documentation](#More Resources)
+This text provides and describes the practical steps of how to host and format a [resume](https://eliesercapillar.github.io/resume/) using **Markdown, Atom, GitHub Pages, and Jekyll**.
+
+Additionally, this text will show the value of pursuing this approach with the help of _Andrew Etter's_ book, [Modern Technical Writing: An Introduction to Software Documentation](#MoreResources)
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
@@ -13,44 +12,44 @@ Additionally, this text will show the value of pursuing this approach with the h
   - [Git](#Git)
   - [Jekyll](#Jekyll)
 - [Instructions](#Instructions)
-  - [Creating a static website using Jekyll](#Creating A Website)
-  - [Adding your resume to your site](#Adding Resume)
-  - [Hosting your site on GitHub Pages](#Hosting Site)
+  - [Creating a static website using Jekyll](#CreatingWebsite)
+  - [Adding your resume to your site](#AddingResume)
+  - [Hosting your site on GitHub Pages](#HostingSite)
 - [FAQs](#FAQs)
   - [Why is Markdown better than a word processor?](#Q1)
   - [Why is my resume not showing up?](#Q2)
 - [Author and Acknowledgements](#Authors)
-- [More Resources](#More Resources)
+- [More Resources](#MoreResources)
 
 ## Prerequisites <a name = "Prerequisites"></a>
 
 Before starting, you will need these prerequisites:
 
-#### A Resume in Markdown <a name = "Resume"></a>
+### A Resume in Markdown <a name = "Resume"></a>
 ![Elieser's Resume](/assets/gifs/eli_resume_slide.gif)
 
-In order to host a resume like [what I have on this site](/resume), you will first need a resume written in Markdown.
+In order to host a resume like [what I have on this site](https://eliesercapillar.github.io/resume/), you will first need a resume written in Markdown.
 
-If you need a refresher on Markdown, I have listed an excellent resource which can be found in [More Resources](#More Resources).
+If you need a refresher on Markdown, I have listed an excellent resource which can be found in [More Resources](#MoreResources).
 
-#### A Markdown Editor <a name = "Editor"></a>
+### A Markdown Editor <a name = "Editor"></a>
 In order to write in Markdown, you will need a Markdown editor.
 
 I use [Atom by GitHub](https://atom.io/).
 
 Any text editor will work, but I appreciated Atom's customizability as well as its built in integration with GitHub.
 
-#### A GitHub Account <a name = "GitHub"></a>
+### A GitHub Account <a name = "GitHub"></a>
 In order to host a resume on [GitHub Pages](https://pages.github.com/), you will need to have a GitHub account.
 
 If you do not yet have one, you can make one on the [GitHub Website](https://github.com/).
 
-#### Git <a name = "Git"></a>
+### Git <a name = "Git"></a>
 In order to make use of GitHub and the ability to push files into a repository, you will need Git.
 
 If you do not yet have Git installed, you can follow [this guide](https://github.com/git-guides/install-git) from GitHub.
 
-#### Jekyll <a name = "Jekyll"></a>
+### Jekyll <a name = "Jekyll"></a>
 Lastly, you will of course need [Jekyll](https://jekyllrb.com/).
 
 If you do not yet have Jekyll installed, you can follow this tutorial on the [Jekyll Website](https://jekyllrb.com/docs/installation/).
@@ -58,7 +57,7 @@ If you do not yet have Jekyll installed, you can follow this tutorial on the [Je
 ## Instructions <a name = "Instructions"></a>
 Once you have all of the prerequisites, you are ready to host your own resume on GitHub Pages.
 
-From _Andrew Etter's_ book, which can be found in [More Resources](#More Resources),  
+From _Andrew Etter's_ book, which can be found in [More Resources](#MoreResources),  
 
 > I mentioned earlier that you should build and host a website, not distribute PDFs, but it bears repeating. Even the best documentation, like software, eventually goes out of date. PDFs get downloaded onto hard drives and then sit there like day-old bagels, growing more and more stale until they're actively harmful. **You can never update them.**
 
@@ -66,7 +65,7 @@ Andrew clearly states the value of having documentation contained on the web. It
 
 Instead of having to provide potential employers with a copy of our resume, we can simply give a link to the website where our resume is hosted. This ensures employers are always given the most up-to-date version of our resume.
 
-#### Creating a static website using Jekyll <a name = "Creating A Website"></a>  
+### Creating a static website using Jekyll <a name = "CreatingWebsite"></a>  
 
 So how do we create a static website using Jekyll? We will be using a terminal to accomplish this.
 1. Open your terminal of choice.
@@ -87,7 +86,7 @@ For now, we will only be using `bundle exec jekyll serve` to host our site local
 
 I recommend reading up on the [Jekyll documentation](https://jekyllrb.com/docs/) to learn more about these commands and other commands I did not cover.
 
-#### Adding your resume to your site <a name = "Adding Resume"></a>
+### Adding your resume to your site <a name = "AddingResume"></a>
 
 You may be wondering: is it really worth going through all of this effort just to host my resume online?
 
@@ -107,23 +106,23 @@ So how do we add our resume onto our newly built site?
 2. Modify the file to add [_Front Matter_](https://jekyllrb.com/docs/front-matter/) at the top of the file.
     1. Add a title.
     2. Specify the layout type.
-      - Any files of layout type: `post` must be in the `_posts` directory with the following naming convention: **YYYY-MM-DD-fileName.md**
+        - Any files of layout type: `post` must be in the `_posts` directory with the following naming convention: **YYYY-MM-DD-fileName.md**
     3. Create a permalink for the file
-      - This is an important step. If a permalink is not set, future changes may **break** the link to this file and prevent employers from accessing your resume.
+        - This is an important step. If a permalink is not set, future changes may **break** the link to this file and prevent employers from accessing your resume.
 
-#### Hosting your site on GitHub Pages <a name = "Hosting Site"></a>  
+### Hosting your site on GitHub Pages <a name = "HostingSite"></a>  
 
 Now we will deploy our website so others can see it as well.
 
 1. Create a new repository on [GitHub](https://github.com/).
 2. Name the repository to _username_.github.io, where _username_ is your username on GitHub.
 3. Add your website project folder onto the new repository using your tool of choice.
-  - I personally use a Git GUI like [GitHub Desktop](https://desktop.github.com/).
-6. Commit the changes.
-7. Push the changes to your repository.
+    - I personally use a Git GUI like [GitHub Desktop](https://desktop.github.com/).
+4. Commit the changes.
+5. Push the changes to your repository.
 
 ## Frequently Asked Questions <a name = "FAQs"></a>
-#### "Why is Markdown better than a word processor? <a name = "Q1"></a>
+### "Why is Markdown better than a word processor?"" <a name = "Q1"></a>
 Markdown is not necessarily _better_ than a word processor. Both are tools built for certain tasks, and both tools do these tasks well.
 
 Markdown excels in its incredible flexibility, allowing Markdown files to be ported to many- often distinct systems- with ease.
@@ -151,7 +150,7 @@ Written by _Elieser Capillar_ (#7838502)
 Jekyll Theme by [_Oinam_](https://github.com/oinam/oinam-jekyll)
 
 
-## More Resources <a name = "More Resources"></a>
+## More Resources <a name = "MoreResources"></a>
 
 Here is a list of resources I found useful while working on this project:
 - A very easy to read, [Markdown syntax overview](https://www.markdownguide.org/basic-syntax).
