@@ -4,7 +4,7 @@ title:  "Elieser Capillar"
 date:   2022-10-31 01:01:42 -0500
 permalink: /resume/
 ---
-Winnipeg, Maitoba, R2V 4Y9 <br>
+Winnipeg, Manitoba, R2V 4Y9 <br>
 204-509-0115 <br>
 elieser.capillar@gmail.com
 
