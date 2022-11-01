@@ -76,11 +76,11 @@ So how do we create a static website using Jekyll? We will be using a terminal t
 
 Jekyll has now made your new site. In order to view it, the site has to be built. There are two ways to do this:
 1. `bundle exec jekyll build`
-  - This will perform a one off build to the directory `./_site`. This contents in `./_site` can then be given to your web-host and they will serve the site for you.
-  - This option is used to deploy to production.
+    - This will perform a one off build to the directory `./_site`. This contents in `./_site` can then be given to your web-host and they will serve the site for you.
+    - This option is used to deploy to production.
 2. `bundle exec jekyll serve`
-  - This will build your site anytime a source file changes, and serves it locally.
-  - This option is used for development.
+    - This will build your site anytime a source file changes, and serves it locally.
+    - This option is used for development.
 
 For now, we will only be using `bundle exec jekyll serve` to host our site locally, until we are ready to deploy.
 
@@ -135,7 +135,7 @@ format (a compressed collection of XML files) actively opposes.
 
 When it comes to documentation that requires fast and constant iteration, Markdown shines.
 
-#### "Why is my resume not showing up?" <a name = "Q2"></a>
+### "Why is my resume not showing up?" <a name = "Q2"></a>
 
 Depending on your Jekyll theme and its `_layout` files, your content may or may not appear right away when you add your `resume.md` file.
 
@@ -148,7 +148,6 @@ Upon picking a theme, carefully read its GitHub repository. Pay special attentio
 ## Author and Acknowledgements <a name = "Authors"></a>
 Written by _Elieser Capillar_ (#7838502)   
 Jekyll Theme by [_Oinam_](https://github.com/oinam/oinam-jekyll)
-
 
 ## More Resources <a name = "MoreResources"></a>
 
