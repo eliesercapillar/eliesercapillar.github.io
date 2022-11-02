@@ -2,7 +2,7 @@
 
 This text provides and describes the practical steps of how to host and format a [resume](https://eliesercapillar.github.io/resume/) using **Markdown, Atom, GitHub Pages, and Jekyll**.
 
-Additionally, this text will show the value of pursuing this approach with the help of _Andrew Etter's_ book, [Modern Technical Writing: An Introduction to Software Documentation](#MoreResources)
+Additionally, this text will show the value of pursuing this approach with the help of _Andrew Etter's_ book, [Modern Technical Writing: An Introduction to Software Documentation](#MoreResources).
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
@@ -11,10 +11,11 @@ Additionally, this text will show the value of pursuing this approach with the h
   - [A GitHub Account](#GitHub)
   - [Git](#Git)
   - [Jekyll](#Jekyll)
+  - [GitHub Desktop](#GHDesktop)
 - [Instructions](#Instructions)
   - [Creating a static website using Jekyll](#CreatingWebsite)
   - [Adding your resume to your site](#AddingResume)
-  - [Hosting your site on GitHub Pages](#HostingSite)
+  - [Hosting your site on GitHub Pages using GitHub Desktop](#HostingSite)
 - [FAQs](#FAQs)
   - [Why is Markdown better than a word processor?](#Q1)
   - [Why is my resume not showing up?](#Q2)
@@ -53,6 +54,11 @@ If you do not yet have Git installed, you can follow [this guide](https://github
 Lastly, you will of course need [Jekyll](https://jekyllrb.com/).
 
 If you do not yet have Jekyll installed, you can follow this tutorial on the [Jekyll Website](https://jekyllrb.com/docs/installation/).
+
+### GitHub Desktop <a name = "GHDesktop"></a>
+This is optional. [GitHub Desktop](https://desktop.github.com/) is a GUI for git.
+
+With this tool, pushing local reposities onto your online repository can be done with a only a few clicks.
 
 ## Instructions <a name = "Instructions"></a>
 Once you have all of the prerequisites, you are ready to host your own resume on GitHub Pages.
@@ -102,7 +108,7 @@ The value behind hosting our documentations online is that it is altogether in a
 With the average Software Engineer churning through hundreds of potential employers throughout their career, having to alter each and every resume to cater to the job is a mind-numbing task can add up to weeks of lost time, maybe even more.
 
 So how do we add our resume onto our newly built site?
-1. Take your resume that you have written in Markdown and add it to the directory that contains your website.
+1. Add your `resume.md` file in the directory that contains your website.
 2. Modify the file to add [_Front Matter_](https://jekyllrb.com/docs/front-matter/) at the top of the file.
     1. Add a title.
     2. Specify the layout type.
@@ -110,11 +116,11 @@ So how do we add our resume onto our newly built site?
     3. Create a permalink for the file
         - This is an important step. If a permalink is not set, future changes may **break** the link to this file and prevent employers from accessing your resume.
 
-### Hosting your site on GitHub Pages <a name = "HostingSite"></a>  
+### Hosting your site on GitHub Pages using GitHub Desktop<a name = "HostingSite"></a>   
 
-Now we will deploy our website so others can see it as well.
+If you do not have [GitHub Desktop](https://desktop.github.com/), a terminal will work fine.
 
-1. Create a new repository on [GitHub](https://github.com/).
+1. Create a new repository by going to `File` &rarr; `New Repository`.
 2. Name the repository to _username_.github.io, where _username_ is your username on GitHub.
 3. Add your website project folder onto the new repository using your tool of choice.
     - I personally use a Git GUI like [GitHub Desktop](https://desktop.github.com/).
@@ -122,7 +128,7 @@ Now we will deploy our website so others can see it as well.
 5. Push the changes to your repository.
 
 ## Frequently Asked Questions <a name = "FAQs"></a>
-### "Why is Markdown better than a word processor?"" <a name = "Q1"></a>
+### "Why is Markdown better than a word processor?" <a name = "Q1"></a>
 Markdown is not necessarily _better_ than a word processor. Both are tools built for certain tasks, and both tools do these tasks well.
 
 Markdown excels in its incredible flexibility, allowing Markdown files to be ported to many- often distinct systems- with ease.
@@ -146,7 +152,13 @@ Others may implement `pages` and `posts` but depending on the implementation of 
 Upon picking a theme, carefully read its GitHub repository. Pay special attention to the `_layouts` folder. There may not exist an implementation for the Front Matter layout you put in your file.
 
 ## Author and Acknowledgements <a name = "Authors"></a>
-Written by _Elieser Capillar_ (#7838502)   
+Written by _Elieser Capillar_ (#7838502)
+
+
+Edited by the members of Group 13:
+- Peter Krompiewski
+- Jeonghwan Choi
+- Devam Patel
 Jekyll Theme by [_Oinam_](https://github.com/oinam/oinam-jekyll)
 
 ## More Resources <a name = "MoreResources"></a>
