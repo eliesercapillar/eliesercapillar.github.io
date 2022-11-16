@@ -159,6 +159,7 @@ Edited by the members of Group 13:
 - Peter Krompiewski
 - Jeonghwan Choi
 - Devam Patel
+
 Jekyll Theme by [_Oinam_](https://github.com/oinam/oinam-jekyll)
 
 ## More Resources <a name = "MoreResources"></a>
